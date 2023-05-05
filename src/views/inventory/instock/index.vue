@@ -118,7 +118,7 @@
           {{ scope.row.instockCount }}
         </template>
       </el-table-column>
-      <el-table-column label="状态" width="100">
+      <el-table-column label="状态" width="150">
         <template slot-scope="scope">
           <el-tag v-if="scope.row.type == 0" >调货入库</el-tag>
           <el-tag v-else-if="scope.row.type == 1" type="success">供货商进货入库</el-tag>
