@@ -186,7 +186,7 @@
             size="mini"
             type="info"
             @click="getPurchaseOrderDetails(scope.row.id)"
-            >进货详情</el-button
+            >订单详情</el-button
           >
           <el-button size="mini" @click="handleEdit(scope.row)">修改</el-button>
           <el-button
