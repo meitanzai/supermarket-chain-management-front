@@ -270,7 +270,7 @@ export default {
     },
     websocketclose(e) {
       //关闭
-      console.log("断开连接", e);
+      // console.log("断开连接", e);
     },
     getOrders() {
       order.getOrders().then((res) => {
