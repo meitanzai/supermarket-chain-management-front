@@ -156,7 +156,7 @@
     </el-dialog>
     <el-dialog title="进货详情" :visible.sync="dialogTableVisible">
       <el-table :data="gridData">
-        <el-table-column width="200" label="商品">
+        <el-table-column width="200" label="进货号">
           <template slot-scope="scope">
             {{ scope.row.purchaseNumber }}
           </template>

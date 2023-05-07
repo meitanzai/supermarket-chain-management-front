@@ -134,7 +134,7 @@
         </el-table-column>
       </el-table>
     </el-dialog>
-    <el-dialog title="30天过期" :visible.sync="dialogTableVisible2">
+    <el-dialog title="30天内过期" :visible.sync="dialogTableVisible2">
       <el-table :data="gridData2">
         <el-table-column label="进货单">
           <template slot-scope="scope">

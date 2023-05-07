@@ -174,7 +174,7 @@
           {{ scope.row.shelfLife }}
         </template>
       </el-table-column>
-      <el-table-column label="保质期" width="70">
+      <el-table-column label="状态" width="70">
         <template slot-scope="scope">
           <el-tag v-if="scope.row.type == 0" type="success">正常</el-tag>
           <el-tag v-else-if="scope.row.type == 1" type="warning">已取消</el-tag>

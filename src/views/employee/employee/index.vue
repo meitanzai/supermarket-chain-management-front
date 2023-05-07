@@ -255,7 +255,7 @@
             autocomplete="off"
           ></el-input>
         </el-form-item>
-        <el-form-item label="员工" :label-width="formLabelWidth">
+        <el-form-item label="员工状态" :label-width="formLabelWidth">
           <el-select
             v-model="employeeEntity.status"
             clearable

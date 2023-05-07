@@ -71,9 +71,9 @@ export default {
         });
         this.myChart.setOption(
           {
-            title: {
-              text: "商品近10次进价对比",
-            },
+            // title: {
+            //   text: "商品近10次进价对比",
+            // },
             tooltip: {
               trigger: "axis",
             },
